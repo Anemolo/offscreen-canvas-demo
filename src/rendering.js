@@ -3,8 +3,11 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js"
 
 export class Rendering {
-  constructor(canvas) {
+  constructor(canvas, palette) {
     this.canvas = canvas;
+    let hex = "#"+ palette.highlight.getHexString()
+    document.documentElement.style.setProperty("--text", hex);
+
 
     this.vp = {
       canvas: {
@@ -39,6 +42,9 @@ export class Rendering {
     this.camera.position.z = 5;
 
     this.scene = new THREE.Scene();
+
+    this.scene.background = palette.BG.clone()
+
     this.clock = new THREE.Clock();
 
     this.vp.scene = this.getViewSizeAtDepth();
