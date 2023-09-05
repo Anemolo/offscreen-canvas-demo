@@ -1,4 +1,4 @@
-<h1 align="center">Ripples Waves and Fakes</h1>
+<h1 align="center">Offscreen Canvas's Tempy</h1>
 
 <p align="center">
     <a href="https://offscreencanvas.com" target="_blank" rel="noopener noreferrer">
