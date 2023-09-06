@@ -5,6 +5,7 @@ import * as THREE from "three";
 
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js"
 import { palettes, sinPalettes } from "./palettes";
+import { getPaletteFromParams, setupControls } from "./utils";
 
 // Colors 
 let paletteKey = getPaletteFromParams("blue")
