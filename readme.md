@@ -1,4 +1,4 @@
-<h1 align="center">Offscreen Canvas's Tempy</h1>
+<h1 align="center">DEMO-TITLE</h1>
 
 <p align="center">
     <a href="https://offscreencanvas.com" target="_blank" rel="noopener noreferrer">
@@ -12,16 +12,16 @@
     </a>
 </p>
 
-[![RippleImage](./cover.png)](https://offscreencanvas.com/renders/)
+[![RippleImage](./cover.png)](https://offscreencanvas.com/renders/demo-title)
 
 Demo for 
 Description
 
 More learning resources and similar demos in my newsletter issue. 
 
-Article: [Link](https://offscreencanvas.com/issues/)
+Article: [Link](https://offscreencanvas.com/issues/demo-title)
 
-Demo: [Link](https://offscreencanvas.com/renders/)
+Demo: [Link](https://offscreencanvas.com/renders/demo-title)
 
 New learnign resources/demos/articles each week ( or so c: ) in the newsletter. Subscribe!
 
