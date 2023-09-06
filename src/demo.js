@@ -7,7 +7,8 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js"
 import { palettes, sinPalettes } from "./palettes";
 
 // Colors 
-let paletteKey = "orange"
+let paletteKey = getPaletteFromParams("blue")
+
 let palette = palettes[paletteKey]
 let sinPalette = sinPalettes[paletteKey]
 
@@ -36,3 +37,5 @@ class Demo {
 }
 
 let demo = new Demo()
+
+setupControls(paletteKey)
