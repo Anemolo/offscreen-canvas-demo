@@ -23,7 +23,7 @@ Article: [Link](https://offscreencanvas.com/issues/demo-title)
 
 Demo: [Link](https://offscreencanvas.com/renders/demo-title)
 
-New learnign resources/demos/articles each week ( or so c: ) in the newsletter. Subscribe!
+New learning resources/demos/articles each week ( or so c: ) in the newsletter. Subscribe!
 
 Next Article: [Grid Tile Patterns](https://offscreencanvas.com/issues/grid-tile-patterns/)
 
@@ -34,13 +34,17 @@ yarn install
 yarn dev
 ```
 
-### Files
+### Files && comments
 
 | file | Description |
 | --- | --- |
 | demo.js | The meat of the demo |
 | rendering.js | All the threeJS rendering |
 | palettes.js | Offscreen canvas paletters, and default sin palette options. May be changed by the demo |
+
+#### Details
+
+These demos have colors managed already. So, `THREE.ColorManagement.enabled = false` is set by default on the `palettes.js` file 
 
 ### Controls
 

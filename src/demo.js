@@ -32,7 +32,7 @@ class Demo {
   addEvents(){
     gsap.ticker.add(this.tick)
   }
-  tick = ()=>{
+  tick = (time, delta)=>{
     this.rendering.render()
   }
 }
