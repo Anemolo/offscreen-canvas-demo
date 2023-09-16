@@ -12,7 +12,7 @@
     </a>
 </p>
 
-[![RippleImage](./cover-crop.png)](https://offscreencanvas.com/renders/demo-title)
+[![RippleImage](./logo.png)](https://offscreencanvas.com/renders/demo-title)
 
 Demo for 
 Description
