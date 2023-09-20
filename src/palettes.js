@@ -1,4 +1,6 @@
 import { Color } from "three";
+import * as THREE from "three";
+THREE.ColorManagement.enabled = false
 
 export const paletteList = ["black", "pink", "aquamarine", "blue", "darkblue", "grey", "white", "orange"]
 
