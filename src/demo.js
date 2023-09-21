@@ -18,6 +18,7 @@ class Demo {
     this.rendering = new Rendering(document.querySelector("#canvas"), palette)
     this.controls = new OrbitControls(this.rendering.camera, this.rendering.canvas)
 
+    this.uTime = new THREE.Uniform(0)
     this.init()
   }
   init(){
@@ -33,6 +34,7 @@ class Demo {
     gsap.ticker.add(this.tick)
   }
   tick = (time, delta)=>{
+    this.uTime.value += delta;
     this.rendering.render()
   }
 }
