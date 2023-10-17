@@ -10,6 +10,18 @@ export function getMousePos(e){
     };
 }
 
+export const sinPaletteHead = `
+  uniform vec3 c0;
+  uniform vec3 c1;
+  uniform vec3 c2;
+  uniform vec3 c3;
+
+  vec3 palette( in float t, in vec3 a, in vec3 b, in vec3 c, in vec3 d ){
+    return a + b*cos( 6.28318*(c*t+d) );
+  }
+`
+
+
 // Demo Utils
 
 export function getPaletteFromParams(defaultPalette = "black"){

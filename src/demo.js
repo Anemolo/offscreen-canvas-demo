@@ -13,6 +13,13 @@ let paletteKey = getPaletteFromParams("blue")
 let palette = palettes[paletteKey]
 let sinPalette = sinPalettes[paletteKey]
 
+let sinUniforms = {
+    c0: new THREE.Uniform(sinPalette.c0),
+    c1: new THREE.Uniform(sinPalette.c1),
+    c2: new THREE.Uniform(sinPalette.c2),
+    c3: new THREE.Uniform(sinPalette.c3),
+}
+
 class Demo {
   constructor(){
     this.rendering = new Rendering(document.querySelector("#canvas"), palette)
